@@ -189,7 +189,7 @@ public class hww {
                         System.out.println(" 오류 발생 ");
                     }
                     break;
-                case 11: // 📂 [LOAD] 파일 불러오기 기능
+                case 11: // 불러오기
                     try (BufferedReader reader = new BufferedReader(new FileReader(FILE_NAME))) {
                         String line;
                         diagCnt = 0; // 불러오기 전 초기화
