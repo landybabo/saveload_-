@@ -32,4 +32,4 @@ abstract public class Shape {
         unpacking(parts);
     }
 }
-}
+
